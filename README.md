@@ -1,16 +1,16 @@
 # Como usar o Git e Github na prática
  
-## Início do vídeo
+## Início do vídeo:
 
 Oie gente sejam bem vindos a mais um vídeo aqui do canal, eu sou a Rafaella Ballerini e hoje eu vou mostrar pra vocês como utilizamos o GIT na prática
 
 No [vídeo anterior](https://www.youtube.com/watch?v=DqTITcMq68k) eu expliquei os conceitos de alguns termos técnicos que utilizamos quando estamos usando o git, então [nesse vídeo](https://www.youtube.com/watch?v=UBAX-13g8OM) vou mostrar na prática como isso acontece.
 
-## Instalando o GIT
+## Instalando o GIT:
 
 * [Link com os downloads](https://git-scm.com/downloads)
 
-## Criar um projeto novo
+## Criar um projeto novo:
 
 * Criar uma nova pasta no PC pra isso chamada `Git Tutorial`
 
@@ -40,13 +40,13 @@ Esse `add` é necessário antes de darmos o commit de fato, mas por que isso? No
 
 * `git branch -M "main"` para alterar o nome da branch principal de `master` para `main` (isso é uma boa prática atualmente recomendada)
 
-## Interfaces Git
+## Interfaces Git:
 
 Beleza, recebemos a confirmação de que o commit aconteceu, mas isso tá um pouco abstrato ainda né?
 Existem algumas [interfaces legais do git](https://git-scm.com/downloads/guis) que você pode fazer o download para poder visualizar de fato como está o projeto, o que foi alterado em cada commit, quando foi alterado etc.
 Aqui eu vou mostrar pra vocês a usarem direto no Github.
 
-## Repositório no Github
+## Repositório no Github:
 
 * Depois de você ter criado a sua conta na plataforma, você irá em `Criar novo repositório`
 
@@ -70,7 +70,7 @@ Agora já temos o nosso repositório local conectado com o respositório do Gith
 
 Agora se recarregarmos a página iremos ver o nosso arquivo aqui na plataforma!
 
-## Alterando e adicionando arquivo
+## Alterando e adicionando arquivo:
 
 Beleza, agora que temos o nosso repositório no Github configurado direitinho, podemos usar e abusar do que o Git oferece, afinal é pra isso que estamos utilizando ele né?
 Primeira coisa que faremos então é alterar esse arquivo que já commitamos
@@ -89,7 +89,7 @@ Aqui nesse botão poderemos ver todos os commits já feitos anteriormente, entã
 
 <img src="https://media.discordapp.net/attachments/831974152667398214/836830443617648670/unknown.png">
 
-## Branch
+## Branch:
 
 Até agora tudo o que fizemos de alterações e mandamos de commit, foi na nossa `main`, que é aquela linha do tempo principal.
 Agora vou mostrar pra vocês como criamos uma branch e depois como que juntamos ela com o código que já está na `main` (lembrando que ela é uma linha cronológica adicional/alternativa a principal)
@@ -118,7 +118,7 @@ Mas Rafa, e se eu precisasse por algum motivo voltar naquela branch `main` e des
 
 Beleza! Agora desenvolvi tudo o que queria aqui na branch `botao`, como que junto ela com a main sem problemas?
 
-## Merge
+## Merge:
 
 * Agora o que precisamos fazer é ir para a nossa branch principal `git checkout main` e lá faremos o merge com a branch `botao` que criamos, com `git merge botao`
 
@@ -126,7 +126,7 @@ Pronto, agora tudo o que tinha de alteração na branch `botao` juntou com a `ma
 
 * Para finalizar então, vamos jogar lá no Github isso tudo com o `git push origin main`
 
-## Clone
+## Clone:
 
 Como vocês podem baixar meu código?
 
@@ -140,13 +140,13 @@ Sempre que você entrar em um repositório, seja o seu ou o de qualquer outra pe
 
 Não é necessário criar um repositório antes disso, como fizemos anteriormente com o `git init`. Dessa vez, basta abrir o terminal e clonar o projeto e tudo aparecerá!
 
-## Pull
+## Pull:
 
 E se eu fizer uma alteração no repositório, como vocês podem atualizar na máquina de vocês?
 
 * Basta vocês executarem o comando `git pull`, ele irá puxar todas as alterações feitas no repositório do Github para o seu repositório local
 
-## Fork
+## Fork:
 
 Mas Rafa quando eu fiz o clone do seu repositório ele não apareceu no meu Github.
 Existe a ferramenta `fork`, que é bem mais simples para fazer isso
@@ -154,7 +154,7 @@ Você só precisa apertar nesse botão dentro do repositório e TCHANAM! Ele apa
 
 <img src="https://media.discordapp.net/attachments/831974152667398214/836826687634407434/unknown.png">
 
-## Pull request
+## Pull request:
 
 O último conceito que quero ensinar para vocês é o de Pull Request, vamos entender como ele funciona:
 
@@ -184,7 +184,7 @@ Você irá colocar um nome intuitivo, que demonstre a funcionalidade adicionada 
 
 Depois disso, basta esperar para que o dono da branch original aceite o seu pull request
 
-## Finalização
+## Finalização:
 
 Existem diversas outras funcionalidades do Git e do Github, porém tenho certeza que com tudo isso que vocês viram hoje vocês já conseguem desenvolver um projeto de uma forma bem legal
 
